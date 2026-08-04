@@ -1,5 +1,5 @@
 """
-Simple race game with betting aaa
+Simple race game with betting
 """
 
 from turtle import Turtle, Screen
