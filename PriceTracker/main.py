@@ -16,6 +16,7 @@ SMTP = os.getenv("PRICE_TRACKER_SMTP")
 TARGET_EMAIL = os.getenv("PRICE_TRACKER_TARGET_EMAIL")
 
 website = "https://www.amazon.com/dp/B075CYMYK6?ref_=cm_sw_r_cp_ud_ct_FM9M699VKHTT47YD50Q6&th=1"
+price_threshold = 100
 
 def send_mail():
     with smtplib.SMTP(SMTP) as connection:
@@ -29,7 +30,7 @@ def send_mail():
 sc = Scrapper()
 item_price = sc.get_item_price(website)
 
-if item_price < 100:
+if item_price < price_threshold:
     send_mail()
 else:
     print(f"Item price: {item_price}")
