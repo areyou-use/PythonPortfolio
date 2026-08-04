@@ -1,3 +1,7 @@
+"""
+Web scraper that checks product's a price and sends an email notification below a specific threshold
+"""
+
 import os
 from dotenv import load_dotenv
 
