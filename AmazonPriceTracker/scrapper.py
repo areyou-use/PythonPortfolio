@@ -1,8 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-
-
 class Scrapper:
     def __init__(self):
         self.headers = {
@@ -12,6 +10,7 @@ class Scrapper:
 
     def get_item_price(self, webpage):
         response = requests.get(webpage, headers=self.headers)
+        print(f"Status code: {response.status_code}")
         webpage_data = response.text
         soup = BeautifulSoup(webpage_data, "html.parser")
         whole_price = soup.find(name="span", class_="a-price-whole").get_text().strip(".")
