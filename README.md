@@ -1,3 +1,4 @@
+![Python logo](https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png)
 # Python Portfolio
 
 Collection of personal python projects.
