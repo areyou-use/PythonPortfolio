@@ -6,7 +6,7 @@ Work in progress.
 
 ## Contents
 
-* [Price Tracker](https://github.com/areyou-use/PythonPortfolio/tree/main/PriceTracker) - Web scraper that checks product's a price and sends an email notification below a specific threshold
+* [Price Tracker](https://github.com/areyou-use/PythonPortfolio/tree/main/PriceTracker) - Web scraper that checks product's price and sends an email notification below a specific threshold
 * [Turtle Race Game](https://github.com/areyou-use/PythonPortfolio/tree/main/TurtleRaceGame) - Horse racing inspired game with betting
 * [Birthday Wisher](https://github.com/areyou-use/PythonPortfolio/tree/main/BirthdayWisher) - Script that checks birthday dates in csv and sends an email with birthday wishes
 * [States Guess Game](https://github.com/areyou-use/PythonPortfolio/tree/main/StateGuessGame) - US state guessing game with simple save system
